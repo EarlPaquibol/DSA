@@ -1,3 +1,3 @@
 Hello!
 
-In this repository is my DSA journey!
+This repository contains my learnings in DSA!
