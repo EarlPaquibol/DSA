@@ -21,23 +21,6 @@ function mergeSort(arr) {
 //[1,2,3,4,5,7,8,12]
 function merge(left, right) {
     let arr = [];
-    // while (left.length !== 0 && right.length !== 0) {
-    //     if (left[0] < right[0]) {
-    //         arr.push(left.shift());
-    //     } else {
-    //         arr.push(right.shift());
-    //     }
-    // }
-
-    // if (left.length !== 0) {
-    //     for (let i = 0; i < left.length; i++) {
-    //         arr.push(left[i]);
-    //     }
-    // } else {
-    //     for (let i = 0; i < right.length; i++) {
-    //         arr.push(right[i]);
-    //     }
-    // }
     let i = 0, j = 0;
     while (i < left.length && j < right.length) {
         if (left[i] < right[j]) {
